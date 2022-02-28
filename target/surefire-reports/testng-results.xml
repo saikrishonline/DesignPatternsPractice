@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-27T19:13:09 ICT" name="Surefire suite" finished-at="2022-02-27T19:13:47 ICT" duration-ms="37210">
+    <groups>
+    </groups>
+    <test started-at="2022-02-27T19:13:09 ICT" name="Surefire test" finished-at="2022-02-27T19:13:47 ICT" duration-ms="37210">
+      <class name="DpDemo.DemoTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:DpDemo.DemoTest@80ec1f8]" started-at="2022-02-27T19:13:09 ICT" name="initialize" finished-at="2022-02-27T19:13:30 ICT" duration-ms="20354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testFlight(java.util.HashMap)[pri:0, instance:DpDemo.DemoTest@80ec1f8]" started-at="2022-02-27T19:13:33 ICT" name="testFlight" data-provider="getData" finished-at="2022-02-27T19:13:42 ICT" duration-ms="8612" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=HYD, origin2=BLR, origin=MAA}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlight -->
+        <test-method signature="testFlight(java.util.HashMap)[pri:0, instance:DpDemo.DemoTest@80ec1f8]" started-at="2022-02-27T19:13:42 ICT" name="testFlight" data-provider="getData" finished-at="2022-02-27T19:13:46 ICT" duration-ms="4193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{destination=MAA, origin2=BOM, origin=DEL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlight -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DpDemo.DemoTest@80ec1f8]" started-at="2022-02-27T19:13:46 ICT" name="tearDown" finished-at="2022-02-27T19:13:47 ICT" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DpDemo.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
